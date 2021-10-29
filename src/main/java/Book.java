@@ -6,7 +6,9 @@
 
 public class Book {
 
+    @Pseudonym("book name")
     private String title;
+    @Ignore
     private int pages;
 
     public Book(String title, int pages) {
