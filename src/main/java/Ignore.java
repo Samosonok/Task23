@@ -4,6 +4,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(value = RetentionPolicy.RUNTIME)
-@Target(value = {ElementType.LOCAL_VARIABLE})
+@Target(value = {ElementType.FIELD})
 public @interface Ignore {
 }
